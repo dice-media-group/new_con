@@ -61,6 +61,10 @@ group :production do
 end
 
 gem 'high_voltage'
-gem 'bourbon', '~> 5.0.0.beta.8'
-gem 'neat', '~> 2.1'
-gem 'refills', group: [:development, :test]
+## from suspenders, but we like foundation
+# gem 'bourbon', '~> 5.0.0.beta.8'
+# gem 'neat', '~> 2.1'
+# gem 'refills', group: [:development, :test]
+
+##custom to app
+gem 'foundation-rails', '~> 6.4', '>= 6.4.1.3'
