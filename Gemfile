@@ -68,3 +68,5 @@ gem 'high_voltage'
 
 ##custom to app
 gem 'foundation-rails', '~> 6.4', '>= 6.4.1.3'
+# contact form
+gem 'mail_form', '~> 1.7'
