@@ -10,8 +10,7 @@ ActionMailer::Base.smtp_settings = {
  :address => 'smtp.sendgrid.net',
  :port => 587,
  :authentication => :plain,
- :enable_starttls_auto => true
- }
+ :enable_starttls_auto => true }
   config.cache_classes = true
   config.eager_load = true
   config.consider_all_requests_local       = false
